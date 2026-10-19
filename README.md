@@ -87,7 +87,7 @@ A responsive e-commerce application featuring product browsing, shopping cart ma
 
 **Technologies:** Next.js, React, TypeScript, Tailwind CSS, Platzi Fake Store API.
 
-## 6. Getting Started
+## 6. GETTING STARTED
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ npm run dev
 
 Open http://localhost:3000 in your browser.
 
-## 7. Environment Variables
+## 7. ENVIRONMENT VARIABLES
 
 The contact form requires environment variables to authenticate with the configured email service.
 
@@ -137,7 +137,7 @@ CONTACT_EMAIL=your-email-address
 
 **Security Note:** Never commit `.env.local` or expose private API keys and email credentials in the repository.
 
-## 8. Security & Proxy
+## 8. SECURITY & PROXY
 
 This portfolio uses the Next.js 16 Proxy convention to configure selected HTTP security headers.
 
@@ -149,7 +149,7 @@ This portfolio uses the Next.js 16 Proxy convention to configure selected HTTP s
 
 Proxy applies these headers to the homepage and project detail pages.
 
-## 9. Deployment
+## 9. DEPLOYMENT
 
 The portfolio is deployed using **Vercel**. To deploy:
 
