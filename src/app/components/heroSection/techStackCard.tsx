@@ -3,7 +3,7 @@ import Image from "next/image";
 const technologies = [
   { name: "Next.js", src: "/techStackLogo/nextJs.png"},
   { name: "React", src: "/techStackLogo/react.png"},
-  { name: "TypeScript", src: "/techStackLogo/typeScript.png"},
+  { name: "TypeScript", src: "/techStackLogo/typescript.png"},
   { name: "NestJS", src: "/techStackLogo/nestJS.png"},
   { name: "PostgreSQL", src: "/techStackLogo/postgresql.png"},
   { name: "Prisma", src: "/techStackLogo/prisma.png"},
