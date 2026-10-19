@@ -25,31 +25,31 @@ export default function Hero() {
           </div>
 
           {/* Main hero content */}
-          <div className="grid flex-1 items-center gap-10 pt-4 pb-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-0">
+          <div className="grid flex-1 items-center gap-10 pt-14 lg:pt-4 pb-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-0">
             {/* Left section */}
             <div className="relative z-20 mb-10">
-              <p className="mb-5 text-xs font-medium uppercase tracking-[0.35em] text-[#4196CE] sm:text-sm font-inter font-[600]">
+              <p className="mb-5 text-xs uppercase tracking-[0.35em] text-[#4196CE] sm:text-sm font-inter font-[600] text-center lg:text-left">
                 Hello, I'm Robby Arzy
               </p>
 
-              <h1 className="font-heading text-[clamp(3.1rem,7vw,7.5rem)] leading-[0.98] tracking-[-0.065em] font-space-grotesk font-[700]">
+              <h1 className="text-[clamp(3.1rem,7vw,7.5rem)] leading-[0.98] tracking-[-0.065em] font-space-grotesk font-[700] text-center lg:text-left">
                 <span className="block">SOFTWARE</span>
                 <span className="block text-[#4196CE]">
-                  DEVELOPER.
+                  DEVELOPER
                 </span>
               </h1>
 
-              <p className="mt-7 max-w-xl text-base leading-relaxed text-[#C6CDD5] md:text-lg font-outfit font-[400]">
+              <p className="mt-7 max-w-xl text-base leading-relaxed text-[#C6CDD5] md:text-lg font-outfit font-[400] text-center lg:text-left">
                 I build modern web applications and reliable
                 backend systems, transforming ideas into
                 functional digital experiences.
               </p>
 
               {/* Call to action */}
-              <div className="mt-9 flex flex-wrap gap-4">
+              <div className="mt-9 flex flex-row items-center justify-center gap-2 sm:gap-4 lg:justify-start">
                 <Link
                   href="/#projects"
-                  className="inline-flex items-center gap-4 rounded-full bg-[#4196CE] px-7 py-4 text-sm font-inter font-[600] text-[#020204] transition-all duration-300 hover:-translate-y-1 hover:bg-[#70B9E8] hover:shadow-[0_10px_35px_#4196CE30]"
+                  className="inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[#4196CE] px-4 py-3 text-xs font-inter font-[600] text-[#020204] transition-all duration-300 hover:-translate-y-1 hover:bg-[#70B9E8] hover:shadow-[0_10px_35px_#4196CE30] sm:gap-4 sm:px-7 sm:py-4"
                 >
                   Explore My Work
                   <ArrowUpRight size={18} />
@@ -57,7 +57,7 @@ export default function Hero() {
 
                 <Link
                   href="/#about"
-                  className="inline-flex items-center gap-4 rounded-full border border-white/30 px-7 py-4 text-sm font-inter font-[600] transition-colors hover:border-[#4196CE] hover:text-[#4196CE]"
+                  className="inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-white/30 px-4 py-3 text-xs font-inter font-[600] transition-colors hover:border-[#4196CE] hover:text-[#4196CE] sm:gap-4 sm:px-7 sm:py-4"
                 >
                   More About Me
                 </Link>

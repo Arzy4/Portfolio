@@ -51,7 +51,7 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr_auto] lg:gap-10">
 
           {/* Left: Logo and introduction */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-center lg:items-start">
 
             <Link href="/#home">
               <Image
@@ -63,7 +63,7 @@ export default function Footer() {
               />
             </Link>
 
-            <p className="mt-5 max-w-[320px] text-xl leading-relaxed text-[#C6CDD5] sm:text-2xl font-outfit font-[400]">
+            <p className="mt-5 max-w-[320px] text-xl leading-relaxed text-[#C6CDD5] sm:text-2xl font-outfit font-[400] text-center lg:text-left">
               Building thoughtful digital experiences through code.
             </p>
 
@@ -92,7 +92,7 @@ export default function Footer() {
                     <Link
                       key={item.label}
                       href={item.href}
-                      className="text-xl text-[#C6CDD5] transition-colors duration-300 hover:text-[#4196CE]"
+                      className="text-base lg:text-xl text-[#C6CDD5] transition-colors duration-300 hover:text-[#4196CE]"
                     >
                       {item.label}
                     </Link>
@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom copyright */}
-        <div className="mt-14 flex flex-col justify-between gap-3 border-t border-[#3562A2]/30 pt-6 text-xs text-[#C6CDD5] sm:flex-row 4196CE] font-inter font-[400]">
+        <div className="mt-14 flex flex-col items-center justify-between gap-3 border-t border-[#3562A2]/30 pt-6 text-center text-xs text-[#C6CDD5] font-inter font-[400] sm:flex-row lg:items-stretch lg:text-left">
           <p>© 2026 Robby Arzy. All rights reserved.</p>
 
           <p>

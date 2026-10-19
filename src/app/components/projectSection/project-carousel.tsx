@@ -189,11 +189,11 @@ export default function OtherProjectCarousel({
                   {project.title}
                 </h3>
 
-                <p className="mt-4 text-sm leading-7 text-[#C6CDD5] font-outfit font-[400]">
+                <p className="mt-4 text-sm leading-7 text-[#C6CDD5] font-outfit font-[400] text-justify lg:text-left">
                   {project.description}
                 </p>
 
-                <div className="mt-6 flex flex-wrap content-start gap-2">
+                <div className="mt-6 flex flex-wrap content-start gap-2 justify-center lg:justify-start">
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}

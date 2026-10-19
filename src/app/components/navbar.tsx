@@ -85,7 +85,7 @@ export default function Navbar() {
       {isOpen && (
         <div
           id="mobile-navigation"
-          className="mx-6 rounded-2xl border border-white/10 bg-[#0C2D5A] p-6 shadow-2xl lg:hidden"
+          className="mx-6 rounded-2xl border border-white/10 bg-[#0C2D5A] p-6 shadow-2xl lg:hidden text-center"
         >
           <div className="flex flex-col gap-5">
             {navLinks.map((link) => (

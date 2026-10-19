@@ -20,7 +20,7 @@ export default function TechStackCard() {
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-3">
+      <div className="grid grid-cols-3 lg:flex lg:flex-wrap gap-3 justify-items-center">
         {technologies.map((tech) => (
           <div
             key={tech.name}

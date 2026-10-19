@@ -110,7 +110,7 @@ export default function Contact() {
 
           {/* Left: Contact information */}
           <div className="flex flex-col rounded-[20px] bg-[#152D47] p-7 sm:p-9">
-            <h3 className="font-space-grotesk font-[600] text-2xl font-bold">
+            <h3 className="font-space-grotesk font-[600] text-xl lg:text-2xl font-bold">
               Contact Information
             </h3>
 
@@ -251,14 +251,16 @@ export default function Contact() {
               />
             </div>
 
-            <button
-              type="submit"
-              disabled={isSending}
-              className="mt-10 flex w-fit items-center gap-2 rounded-lg bg-[#4196CE] px-7 py-3 text-sm font-inter font-[600] text-[#020204] transition-all duration-300 hover:-translate-y-1 hover:bg-[#66B2E2]"
-            >
-              {isSending ? "Sending..." : "Send Message"}
-              <ArrowUpRight size={18} />
-            </button>
+            <div className="flex justify-center lg:justify-start">
+              <button
+                type="submit"
+                disabled={isSending}
+                className="mt-10 flex w-fit items-center gap-2 rounded-lg bg-[#4196CE] px-7 py-3 text-sm font-inter font-[600] text-[#020204] transition-all duration-300 hover:-translate-y-1 hover:bg-[#66B2E2]"
+              >
+                {isSending ? "Sending..." : "Send Message"}
+                <ArrowUpRight size={18} />
+              </button>
+            </div>
 
             {status && (
               <p
